@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: "Comfortaa", cursive;
+    color: #fff !important; 
+}
+.h-30{
+    height: 30%;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+nav{
+    background-color: rgb(58, 73, 123) !important;
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+.nav-item .nav-link.active, .nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+}
+.card{
+    background-color: transparent;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+    filter: grayscale(0.5);
+}
+.badge-color{
+    background-color: rgba(60, 60, 60, 0.538);
+}
+.card:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+.details{
+    background-color:  rgba(0, 0, 0, 0.89);
+}
+@media screen and (max-height:511px) {
+    .h-100{
+        height: auto !important;
+    }
+}
+@media screen and (max-width:750px) {
+    .h-100{
+        height: auto !important;
+    }
+}
